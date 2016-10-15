@@ -1,0 +1,112 @@
+/*---------------------------------------------------------------
+
+# Author - olwebdesign http://www.olwebdesign.com
+# Copyright (C) 2008 - 2016 olwebdesign.com. All Rights Reserved.
+# Websites: http://www.olwebdesign.com
+-----------------------------------------------------------------*/
+
+body{font-size:13px;}
+h1,h2,h3,h4, .very_big_white, .big_black
+ {
+	font-weight:300;
+}
+body.bg { background-image: url(../images/sand.png );  }
+
+#wrapper, #bottomspot, .mx-base {width: 960px;} 
+ #bottsite, #header, #wrapper, #bottomspot, #tophead {min-width: 960px; margin: 0 auto}
+#mx-leftcol {width: 25%} 
+#mx-rightcol { width: 27%} 
+#mx-sideleft {width: 20%}
+#mx-sideright { width: 30%}
+body.bg { color: #444; background-color: #f5f5f5;}
+#fixsite  { margin-bottom: 15px;
+	box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.1);}
+
+#topcol { margin-top: 15px;}
+#wrapper { color: #444; background-color:rgba(255,255,255,0.9);}
+#bottsite { color: #fff; background-color: rgba(0,0,0,0.8); }
+#bottomspot  { background-color:rgba(255,255,255,0.8); color: #444;}
+#topheader {position:relative; width:100%;  z-index:100; }
+.jul-formregistration, .jul-formlogin { color: #222;}
+#mx-basebody  { position: relative;}
+	
+.mx_date { padding: 5px 0px;}
+
+#menuout .mx-inner,
+#mx-banner .mx-inner, #mx-header  .mx-inner {
+	padding:0;
+}
+#mx-search { height: 46px;}
+#mx-bottom a{ background: transparent;}
+#mx-bottom li a{ padding: 7px 0px; border-bottom: 1px solid #777;}
+#bottomspot .mx-inner {padding:0;}
+.mx_date{float:left;margin-top:8px}
+.form-actions{padding:2px 4px 2px;margin-top:5px;margin-bottom:5px;background: transparent;border-top:1px solid #fff;*zoom:1;}	
+#hormenu ul li .submenu-inner,#sublevel ul li .submenu-inner { padding: 3px; margin: 1px 3px 3px 3px; border: 1px solid #ccc;
+	box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.1);}
+input{width:90%;}
+textarea{width:98%;}
+.quick_contact input{width:80%;}
+#contact-form input{width:40%;}
+#user-registration input, #member-registration input, .login input{width:230px;}
+.pagenav a,.pager a{display:inline-block;padding:4px 14px;background-color:#fff;border:1px solid #ddd;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#fafafa; border-bottom:1px solid #dadada;
+	background-image: -webkit-linear-gradient(top,  #fff, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #fff, #e6e6e6);}
+.pager a:hover{text-decoration:none;background:#f5f5f5; border-bottom:1px solid #dadada;
+	background-image: -webkit-linear-gradient(top,  #e6e6e6, #fff);
+	background-image: -moz-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -ms-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -o-linear-gradient(top, #e6e6e6, #fff);}
+a#pagetop{float:right;padding: 4px 10px;}	
+a#valdate{  font-size: 10px;padding: 2px 5px; }	
+	
+.jlogin1 {float:left;width:40%;margin-right:12px;}
+.jlogin2 {float:left;width:50%;margin-top:14px;color:#999;}
+.jlogintext {float:left;margin:0 12px 12px 0;}
+
+.contactForm legend  { font-size: 12px !important;}
+#mx-rightcol .control-group { font-size: 12px !important; margin-left: -70px !important;}
+
+#mx-rightcol input { width: 95% !important;}
+.btn-primary {
+  background-image: -webkit-linear-gradient(top, #999 0%, #555 100%);
+  background-image: linear-gradient(to bottom, #999 0%, #555 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999', endColorstr='#555', GradientType=0);
+  border-color: #999;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.gallery  {
+    margin: 0;
+  }
+  @media (max-width: 767px) {
+body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  } 
+/*
+// #sticky menu
+// --------------------------------------------------
+*/ 
+#trueHeader{z-index:8000; background-color: #fff;left:0;right:0;padding:0;box-shadow:0 1px 5px rgba(0,0,0,0.1);-khtml-box-shadow:0 1px 5px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 5px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 5px rgba(0,0,0,0.1);-ms-box-shadow:0 1px 5px rgba(0,0,0,0.1);-o-box-shadow:0 1px 5px rgba(0,0,0,0.1);transition:padding 0.35s ease;-khtml-transition:padding 0.35s ease;-webkit-transition:padding 0.35s ease;-moz-transition:padding 0.35s ease;-ms-transition:padding 0.35s ease;-o-transition:padding 0.35s ease;zoom:1}
+
+#header.sticky #trueHeader{position:fixed;top:0;} 
+a{color:#ecaa38}
+a:hover,a:active,a:focus{color:#585858}
+.colors {background-color:#f1ebe7;} 
+.readmore, a.readmore, .tp-caption.ExtraLargeTitle span {background:#ecaa38 !important;}
+.social-icons li a .top{ background-color: #ecaa38; color: #fff; }
+#tophead { background-color: #ecaa38 ; color: #f1f1f1;}
+#trueHeader{border-bottom: 5px solid #ecaa38; }
