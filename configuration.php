@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class JConfig {
 	public $offline = '0';
 	public $offline_message = 'Diese Website ist zurzeit im Wartungsmodus.<br />Bitte später wiederkommen.';
@@ -54,8 +54,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = 'D:\\Programme\\xampp\\htdocs\\wallishauser/logs';
-	public $tmp_path = 'D:\\Programme\\xampp\\htdocs\\wallishauser/tmp';
+	public $log_path = 'C:\\xampp\\htdocs\\wallishauser\\logs';
+	public $tmp_path = 'C:\\xampp\\htdocs\\wallishauser/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 }
